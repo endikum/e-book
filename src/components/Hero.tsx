@@ -25,8 +25,14 @@ const Hero: React.FC = () => {
                             <a href="#pricing" className="btn-primary flex items-center justify-center gap-2">
                                 Get Your Copy Now
                             </a>
-                            <a href="#about" className="btn-secondary flex items-center justify-center gap-2">
-                                View Sample Chapter
+                            <a 
+                                href="https://wa.me/2348160012799" 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="btn-secondary flex items-center justify-center gap-2"
+                            >
+                                <span className="material-symbols-outlined text-xl">download</span>
+                                Download Free Preview
                             </a>
                         </div>
 

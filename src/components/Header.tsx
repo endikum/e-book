@@ -5,12 +5,12 @@ const Header: React.FC = () => {
         <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-lg border-b border-slate-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
-                    <div className="flex items-center gap-2">
+                    <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                         <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg shadow-primary/30">
                             <span className="material-symbols-outlined text-2xl font-bold">auto_stories</span>
                         </div>
                         <span className="text-xl font-black tracking-tight text-slate-900 uppercase">EL-HUB VENTURES</span>
-                    </div>
+                    </a>
 
                     <nav className="hidden md:flex items-center gap-10">
                         <a href="#about" className="text-sm font-bold text-slate-600 hover:text-primary transition-colors">About</a>
